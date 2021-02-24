@@ -1,0 +1,12 @@
+
+server:
+  port: 9995
+spring:
+  application:
+    name: spring-cloud-order-service-provider
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:9991/eureka
+    register-with-eureka: true  # ⾃⼰就是服务不需要注册⾃⼰ 集群模式下可以改成true
+    fetch-registry: true # ⾃⼰就是服务不需要从Eureka Server获取服务信息,默认为true，集群模式下可以改成true
