@@ -17,6 +17,7 @@
         <module>spring-cloud-eureka-ribbon</module>
         <module>spring-cloud-user-hystrix-consumer</module>
         <module>spring-cloud-zuul</module>
+        <module>spring-cloud-config</module>
     </modules>
 
     <properties>
